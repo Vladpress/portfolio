@@ -1,0 +1,121 @@
+.project {
+  background-size: 100%;
+  perspective: 500px;
+  margin: -90px 0 0;
+  transform: rotate(0);
+  visibility: hidden;
+  outline: none;
+  top: -200px;
+
+  &--animated {
+    visibility: visible;
+    display: block;
+    transition: transform 0.3s, top 0.3s, visibility 0.2s 0.5s, margin 0.5s 0.5s;
+    margin: -28px 0 0;
+    transform: rotate(-12deg);
+    position: relative;
+    top: 210px;
+    text-decoration: none;
+  }
+
+  &:hover .project__container {
+    top: -15px;
+    left: -15px;
+    background: #5f5f5f;
+  }
+
+  &__container {
+    position: relative;
+    height: 90px;
+    width: 175px;
+    left: 0;
+    top: 0;
+    transition: background 0.3s, top 0.2s, left 0.2s;
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.45);
+
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+  }
+
+  &__name-lepestok {
+    background: url("/portfolio/img/visitki/lepestok.jpg") 100%;
+    .project__name {
+      opacity: 0;
+    }
+    .project__name:hover {
+      color: #ffffff;
+      font-size: 12px;
+      letter-spacing: 2px;
+      position: absolute;
+      top: 12px;
+      left: 2px;
+      width: 167px;
+      opacity: 1;
+    }
+  }
+
+  &__name-calendar {
+    background: url("/portfolio/img/visitki/logo-big.png");
+    background-size: 100%;
+    .project__name {
+      opacity: 0;
+    }
+  }
+
+  &__name-calendar:hover .project__name {
+    color: #ffffff;
+    letter-spacing: 2px;
+    position: absolute;
+    font-size: 12px;
+    top: 12px;
+    right: 6px;
+    width: 162px;
+    opacity: 1;
+  }
+
+  &__name-react_uber-eats {
+    background: url("/portfolio/img/visitki/uber.jpg");
+
+    .project__name {
+      color: #138714;
+      font-size: 10px;
+      position: absolute;
+      top: 37px;
+      right: 8px;
+      width: 73px;
+    }
+  }
+  &__name-react_uber-eats:hover .project__name {
+    color: #ffffff;
+    letter-spacing: 2px;
+    position: absolute;
+    font-size: 12px;
+    top: 13px;
+    right: 6px;
+    width: 162px;
+  }
+
+  &__name-portfolio_layout_miami {
+    background: url("/portfolio/img/visitki/miami.jpg");
+    // transform: rotate3d(85, 0, -1, 23deg);
+
+    .project__name {
+      color: #138714;
+      font-size: 10px;
+      position: absolute;
+      top: 64px;
+      left: 0px;
+    }
+  }
+
+  &__name-portfolio_layout_miami:hover .project__name {
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 167px;
+  }
+}

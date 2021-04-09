@@ -1,0 +1,32 @@
+.main-info {
+  padding-left: 50px;
+  grid-area: info;
+  &__name {
+    font-family: "Russell";
+    letter-spacing: 1px;
+    margin: 43px 0 10px;
+    font-size: 30px;
+  }
+
+  &__name,
+  .main-info__status {
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  &__status {
+    background: #2d2d2d;
+    padding: 7px 0 5px 10px;
+    font-size: 14px;
+    color: #d2c166;
+  }
+
+  &__address {
+    font-size: 10px;
+    color: #383838;
+    padding: 10px 0 0 2px;
+    text-align: left;
+    font-weight: 700;
+    font-style: italic;
+  }
+}
