@@ -5,17 +5,15 @@ import React from "react";
 const Exp = () => (
   <div className="exp">
     <div className="exp__experience">
-      <h3 className="exp__pe-title">Профессиональный опыт</h3>
+      <h3 className="exp__pe-title">PROFESSIONAL EXPERIENCE</h3>
       <p className="exp__accent-gray" />
       <p className="exp__pe-description">
-        Последние 5 лет опыта в разработке сайтов. Работал в 2-х небольших
-        аутсорс компаниях, направленных на западный рынок. Занимаюсь ведением
-        проектов на фрилансе.
-        <br className="profile-description__br profile-description__hr" />
-        Wordpress/React/Redux/Node JS
+        6 month of commercial experience in frontend development
+        <br />
+        React/Redux
       </p>
     </div>
-    <h3 className="exp__pe-title exp__pe-title-1">Профессиональные навыки</h3>
+    <h3 className="exp__pe-title exp__pe-title-1">PROFESSIONAL SKILLSET</h3>
     <p className="exp__accent-gray exp__accent-gray2" />
     <div className="exp__skillset">
       <div className="exp__item-wrap">
@@ -57,6 +55,13 @@ const Exp = () => (
       <div className="exp__item-wrap">
         <span className="exp__item">CMS:</span>
         <p className="exp__skill">WordPress</p>
+        <hr className="exp__hr" />
+      </div>
+      <div className="exp__item-wrap">
+        <span className="exp__item">Backend:</span>
+        <p className="exp__skill">
+          NodeJs/ Express/ JWT access/ refresh/ Bcrypt/ Telegram bot{" "}
+        </p>
         <hr className="exp__hr" />
       </div>
     </div>

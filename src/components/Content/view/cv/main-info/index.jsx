@@ -8,7 +8,7 @@ const MainInfo = () => (
       <br />
       Vladyslav
     </h2>
-    <div className="main-info__status">Full-stack developer</div>
+    <div className="main-info__status">Frontend developer</div>
     <div className="main-info__address">Kharkiv, Ukraine</div>
   </div>
 );

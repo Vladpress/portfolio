@@ -38,6 +38,37 @@
     font-weight: 500;
   }
 
+  &__name-vipclub {
+    background: url("/portfolio/img/visitki/vip.jpg") 100%;
+    .project__name {
+      opacity: 0;
+    }
+    .project__name:hover {
+      color: #ffffff;
+      font-size: 12px;
+      letter-spacing: 2px;
+      position: absolute;
+      top: 12px;
+      left: 2px;
+      width: 167px;
+      opacity: 1;
+    }
+  }
+
+  &__name-vipclub:after {
+    content: "new";
+    font-size: 9px;
+    color: red;
+    border: 1px solid red;
+    background-color: yellow;
+    padding: 2px;
+    position: absolute;
+    top: -8px;
+    right: -2px;
+    text-transform: uppercase;
+    border-radius: 2px;
+  }
+
   &__name-lepestok {
     background: url("/portfolio/img/visitki/lepestok.jpg") 100%;
     .project__name {
@@ -98,7 +129,6 @@
 
   &__name-portfolio_layout_miami {
     background: url("/portfolio/img/visitki/miami.jpg");
-    // transform: rotate3d(85, 0, -1, 23deg);
 
     .project__name {
       color: #138714;
@@ -109,7 +139,19 @@
     }
   }
 
-  &__name-portfolio_layout_miami:hover .project__name {
+  &__name-portfolio_layout_dia {
+    background: url("/portfolio/img/visitki/dia.jpg");
+
+    .project__name {
+      color: #138714;
+      font-size: 10px;
+      position: absolute;
+      top: 64px;
+      left: 0px;
+    }
+  }
+
+  &__name-portfolio_layout_dia:hover .project__name {
     color: #ffffff;
     font-size: 12px;
     letter-spacing: 2px;

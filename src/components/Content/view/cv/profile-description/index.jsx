@@ -4,17 +4,17 @@ import React from "react";
 
 const ProfileDescription = () => (
   <div className="profile-description">
-    &nbsp; Смело приступаю к изучению новых технологий. Решаю проблемы, а не
-    сижу на работе.
+    &nbsp; Feel free to start studying new technologies. Solving problems, not
+    sitting at work.
     <br className="profile-description__br" />
     <hr className="profile-description__br profile-description__hr" />
     <hr className="profile-description__br profile-description__hr" />
-    &nbsp;Люблю работать в команде, ищу интересных и жизнерадостных людей&nbsp;
+    &nbsp;I want to work in a team. Looking for interesting and cheerful &nbsp;
     <br className="profile-description__br" />
-    с которыми удастся сотворить ценность.
+    people with whom I can create value.
     <br className="profile-description__br" />
-    &nbsp; Стек технологий: HTML5, CSS3, JavaScript, React, Redux, Git, SASS /
-    SCSS. Wordpress. MySQL, mongoDb. Familiar with Photoshop
+    &nbsp; Technologies stack: HTML5, CSS3, JavaScript, React, Redux, NodeJs,
+    Git, SASS / SCSS. Wordpress. MySQL, mongoDb. Familiar with Photoshop
     <hr className="profile-description__br profile-description__hr" />
   </div>
 );

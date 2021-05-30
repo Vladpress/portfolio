@@ -305,18 +305,7 @@
     &__container {
       box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.45);
     }
-
-    &__name-lepestok {
-      transform: rotate3d(81, -47, 17, 38deg);
-    }
-
-    &__name-portfolio_layout_dia {
-      transform: rotate3d(309, -141, 48, 19deg);
-    }
-
-    &__name-js_test {
-      transform: rotate3d(113, 1, -108, 21deg);
-    }
+    transform: rotate3d(81, -47, 17, 38deg);
   }
 
   .main-info {

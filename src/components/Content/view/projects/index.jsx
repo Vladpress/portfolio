@@ -19,7 +19,15 @@ const Projects = (props) => {
     data: {
       homepage: "http://muse-travel.com/calendar.php",
       name: "calendar",
-      description: "PHP MySQL JQuery",
+      description: "PHP / MySQL / JQuery",
+    },
+  };
+
+  const vipclub = {
+    data: {
+      homepage: "https://vipclub.netlify.app/",
+      name: "vipclub",
+      description: "Backend NodeJs / Frontend React-Redux/ Telegram bot",
     },
   };
 
@@ -33,40 +41,39 @@ const Projects = (props) => {
     <div className="projects">
       <div className="projects__container">
         {Array.isArray(projects) && (
+          <Project project={vipclub} animated={flag} />
+        )}
+        {Array.isArray(projects) && (
           <Project project={lepestok} animated={flag} />
         )}
         {Array.isArray(projects) && (
           <Project project={calendar} animated={flag} />
         )}
         {Array.isArray(projects) &&
-          projects.map((project, index) => {
-            if (index > 1) {
-              return (
-                <Project
-                  key={project.data.id}
-                  project={project}
-                  animated={flag}
-                />
-              );
-            }
+          projects.map((project) => {
+            return (
+              <Project
+                key={project.data.id}
+                project={project}
+                animated={flag}
+              />
+            );
           })}
         <div className="projects__scene">
           {Array.isArray(projects) &&
             projects.map((project, index) => {
-              if (index > 1) {
-                return (
-                  <img
-                    className={
-                      !flag
-                        ? "projects__getImg"
-                        : `projects__getImg projects__getImg-${project.data.name}`
-                    }
-                    src="/portfolio/img/projects.png"
-                    alt="projects"
-                    key={index}
-                  />
-                );
-              }
+              return (
+                <img
+                  className={
+                    !flag
+                      ? "projects__getImg"
+                      : `projects__getImg projects__getImg-${project.data.name}`
+                  }
+                  src="/portfolio/img/projects.png"
+                  alt="projects"
+                  key={index}
+                />
+              );
             })}
         </div>
         <button

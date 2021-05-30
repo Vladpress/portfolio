@@ -4,30 +4,25 @@ import React from "react";
 
 const Education = () => (
   <div className="education">
-    <p className="education__education-title">Образование</p>
+    <p className="education__education-title">Education</p>
     <p className="education__vuz">
-      <span className="education__qualify">младший специалист</span>
-      программист
+      <span className="education__qualify">Junior Specialist</span>
       <br />
-      <br />
-      Колледж Восточноукраинского национального университета имени В Даля по
-      специальности
+      College by specialty computer technologies
     </p>
     <p className="education__vuz">
-      <span className="education__qualify education__qualify2">
-        Инженер исследователь
-        <br />
-        Магистр
-        <br />
+      <span className="education__qualify">
+        Master of computer science
+        <br /> Engineer researcher
       </span>
-      компьютерных технологий
       <br />
-      Восточноукраинский национальный университет имени Владимира Даля.
-      Автоматизированное управление технологическими процессами.
+      East Ukrainian National University. Automated technological process
+      control.
     </p>
-    <p className="education__vuz education__vuz2">
-      <span className="education__qualify">Реакт разработчик</span>
-      Mate академия
+    <p className="education__vuz">
+      <span className="education__qualify">React developer</span>
+      <br />
+      Mate academy online
     </p>
   </div>
 );
