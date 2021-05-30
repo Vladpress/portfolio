@@ -143,6 +143,16 @@
     }
   }
 
+  &__name-portfolio_layout_miami:hover .project__name {
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 167px;
+  }
+
   &__name-portfolio_layout_dia {
     background: url("/portfolio/img/visitki/dia.jpg");
 
