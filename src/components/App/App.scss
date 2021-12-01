@@ -166,14 +166,6 @@
   }
 }
 
-@media screen and (max-width: 420px) {
-  .App {
-    background: url("/portfolio/img/fon-mobile.jpg");
-    background-size: 100% 2500px;
-    background-repeat: no-repeat;
-  }
-}
-
 @font-face {
   font-family: "Neverwinter";
   src: url("/portfolio/fonts/Neverwinter.ttf") format("truetype");
