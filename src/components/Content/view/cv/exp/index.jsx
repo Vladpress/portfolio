@@ -8,7 +8,8 @@ const Exp = () => (
       <h3 className="exp__pe-title">PROFESSIONAL EXPERIENCE</h3>
       <p className="exp__accent-gray" />
       <p className="exp__pe-description">
-        A year of commercial experience in frontend development
+        A couple of years of experience in freelance. A year of commercial
+        experience as a react developer in IT company
         <br />
         React/Redux/KonvaJS/TypeScript
       </p>
