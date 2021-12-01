@@ -78,6 +78,7 @@
 
     &__container {
       transform: scale(0.8);
+      top: -45px;
     }
   }
 
@@ -88,6 +89,9 @@
 }
 
 @media screen and (max-width: 1023px) {
+  .main-info__print {
+    display: none;
+  }
   .cv {
     margin: 2px 0 0 -2px;
     order: -1;
@@ -176,10 +180,10 @@
   }
 
   .cup {
-    top: 18px;
+    top: -3px;
     width: 151px;
     height: 174px;
-    left: 640px;
+    left: 665px;
   }
 
   .pen {
@@ -194,7 +198,7 @@
   }
 }
 
-@media screen and (min-width: 421px) and (max-width: 767px) and (orientation: portrait) {
+@media screen and (min-width: 633px) and (max-width: 767px) and (orientation: portrait) {
   .pen,
   .cup,
   .iphone,
@@ -203,10 +207,10 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 633px) {
   .App {
     background: url(/portfolio/img/fon-mobile.jpg);
-    background-size: 100% 2430px;
+    background-size: 100% 2590px;
     background-repeat: no-repeat;
   }
 
@@ -217,7 +221,7 @@
     border-radius: 0;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.59);
     background: transparent;
-    height: 2400px;
+    height: 2570px;
   }
 
   .cv {
@@ -268,7 +272,7 @@
 
     &__container {
       transform: rotate(34deg);
-      top: -40px;
+      top: 20px;
       left: 35px;
     }
     &__getFromGit {
@@ -468,4 +472,48 @@
       left: 104px;
     }
   }
+}
+
+@media print {
+  .App {
+    visibility: hidden;
+  }
+
+  .cv {
+    visibility: visible;
+    top: 200px;
+    left: -140px;
+    transform: scale(1.7);
+    box-shadow: none;
+    color: black !important;
+  }
+
+  .profile-description,
+  .profile-title,
+  .contacts-wrap__home-link,
+  .contacts-wrap__contact-title,
+  .contacts-wrap__telegram-link,
+  .education,
+  .contacts-wrap .contacts-wrap__call-link {
+    color: black !important;
+  }
+
+  .contacts-wrap__contacts {
+    position: relative;
+    left: 44px;
+  }
+
+  .contacts-wrap__icon-border,
+  .contacts-wrap__icon-border1 {
+    visibility: hidden;
+  }
+
+  .main-info__print {
+    visibility: hidden;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
 }

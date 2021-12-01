@@ -31,6 +31,14 @@ const Projects = (props) => {
     },
   };
 
+  const mockVisual = {
+    data: {
+      homepage: "https://app.mockvisual.com/",
+      name: "mockVisual",
+      description: "React / TypeScript / KonvaJS",
+    },
+  };
+
   const onClickGetProjects = () => {
     props.startLoading();
     setTimeout(() => setAnimationFlag(true));
@@ -40,6 +48,9 @@ const Projects = (props) => {
   return (
     <div className="projects">
       <div className="projects__container">
+        {Array.isArray(projects) && (
+          <Project project={mockVisual} animated={flag} />
+        )}
         {Array.isArray(projects) && (
           <Project project={vipclub} animated={flag} />
         )}

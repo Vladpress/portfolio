@@ -20,12 +20,22 @@ const Contacts = () => (
         </a>
       </li>
       <li className="contacts-wrap__contactme">
-        <div className="contacts-wrap__contact-title">
+        <div
+          onClick={() =>
+            navigator.clipboard.writeText("vladyslav223@gmail.com")
+          }
+          className="contacts-wrap__contact-title contacts-wrap__contact-title-email"
+        >
           <span className="contacts-wrap__contact-styles">Email</span>
           <br />
           vladyslav223 @gmail.com
         </div>
-        <div className="contacts-wrap__icon-border contacts-wrap__icon-border2">
+        <div
+          onClick={() =>
+            navigator.clipboard.writeText("vladyslav223@gmail.com")
+          }
+          className="contacts-wrap__icon-border contacts-wrap__icon-border2"
+        >
           <img src="/portfolio/icons/email.png" alt="contact" />
         </div>
       </li>

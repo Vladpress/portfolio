@@ -1,8 +1,4 @@
-import axios from 'axios';
-
-export function fetchFilters() {
-
-}
+import axios from "axios";
 
 export function fetchProjects(repos) {
   const promises = repos.map((rep) => axios.get(rep.url));

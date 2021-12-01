@@ -13,8 +13,9 @@ const ProfileDescription = () => (
     <br className="profile-description__br" />
     people with whom I can create value.
     <br className="profile-description__br" />
-    &nbsp; Technologies stack: HTML5, CSS3, JavaScript, React, Redux, NodeJs,
-    Git, SASS / SCSS. Wordpress. MySQL, mongoDb. Familiar with Photoshop
+    &nbsp; Technologies stack: HTML5, CSS3, JavaScript, React, Redux,
+    TypeScript, NodeJs, Git, SASS / SCSS. Wordpress. MySQL, mongoDb. Familiar
+    with Photoshop
     <hr className="profile-description__br profile-description__hr" />
   </div>
 );

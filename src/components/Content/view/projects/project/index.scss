@@ -38,8 +38,36 @@
     font-weight: 500;
   }
 
-  &__name-js_test {
-    display: none;
+  &__name-mockVisual {
+    background: url("/portfolio/img/visitki/mock.jpg") 100%;
+    .project__name {
+      opacity: 0;
+    }
+    .project__name:hover {
+      color: #ffffff;
+      font-size: 12px;
+      letter-spacing: 2px;
+      position: absolute;
+      padding-top: 12px;
+      left: 2px;
+      width: 167px;
+      height: 100%;
+      opacity: 1;
+    }
+  }
+
+  &__name-mockVisual:after {
+    content: "new";
+    font-size: 9px;
+    color: red;
+    border: 1px solid red;
+    background-color: yellow;
+    padding: 2px;
+    position: absolute;
+    top: -8px;
+    right: -2px;
+    text-transform: uppercase;
+    border-radius: 2px;
   }
 
   &__name-vipclub {
@@ -52,7 +80,7 @@
       font-size: 12px;
       letter-spacing: 2px;
       position: absolute;
-      top: 12px;
+      padding-top: 12px;
       left: 2px;
       width: 167px;
       opacity: 1;
@@ -60,7 +88,7 @@
   }
 
   &__name-vipclub:after {
-    content: "new";
+    content: "hot";
     font-size: 9px;
     color: red;
     border: 1px solid red;
@@ -83,7 +111,7 @@
       font-size: 12px;
       letter-spacing: 2px;
       position: absolute;
-      top: 12px;
+      padding-top: 12px;
       left: 2px;
       width: 167px;
       opacity: 1;
@@ -103,7 +131,7 @@
     letter-spacing: 2px;
     position: absolute;
     font-size: 12px;
-    top: 12px;
+    padding-top: 12px;
     right: 6px;
     width: 162px;
     opacity: 1;

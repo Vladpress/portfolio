@@ -8,9 +8,9 @@ const Exp = () => (
       <h3 className="exp__pe-title">PROFESSIONAL EXPERIENCE</h3>
       <p className="exp__accent-gray" />
       <p className="exp__pe-description">
-        6 month of commercial experience in frontend development
+        A year of commercial experience in frontend development
         <br />
-        React/Redux
+        React/Redux/KonvaJS/TypeScript
       </p>
     </div>
     <h3 className="exp__pe-title exp__pe-title-1">PROFESSIONAL SKILLSET</h3>
@@ -26,14 +26,14 @@ const Exp = () => (
       <div className="exp__item-wrap">
         <span className="exp__item">CSS:</span>
         <p className="exp__skill">
-          Responsive Web Design, Sass, BEM, CSS animation, FlexBox, Grid,
-          Cross-Browser compatibility knowledge, Semantic UI Animate.css
+          Responsive web design, SASS, BEM, CSS transitions, flexBox, grid,
+          cross-browser compatibility knowledge, semantic UI
         </p>
         <hr className="exp__hr" />
       </div>
       <div className="exp__item-wrap">
         <span className="exp__item">JavaScript:</span>
-        <p className="exp__skill">JS native, React, Redux, Node JS</p>
+        <p className="exp__skill">React, Konva, JQuery, TS</p>
         <hr className="exp__hr" />
       </div>
       <div className="exp__item-wrap exp__item-wrap6">
@@ -49,7 +49,7 @@ const Exp = () => (
           Version
           <br /> control:
         </span>
-        <p className="exp__skill">Git Version Control Tool</p>
+        <p className="exp__skill">GitHub, GitLab</p>
         <hr className="exp__hr" />
       </div>
       <div className="exp__item-wrap">
