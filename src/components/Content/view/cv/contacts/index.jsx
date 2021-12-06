@@ -43,7 +43,7 @@ const Contacts = () => (
         <div className="contacts-wrap__contact-title">
           <a
             className="contacts-wrap__telegram-link"
-            href="tg://resolve?domain=Vladyslav_dev"
+            href="tg://resolve?domain=vladdew"
           >
             <span className="contacts-wrap__contact-styles">Telegram</span>
             <br />
